@@ -1,3 +1,4 @@
+import { publicAsset } from "./assetBase";
 import { Language } from "./translations";
 
 export const GROOM_NAME = "Hossam";
@@ -76,7 +77,7 @@ export interface TimelineStep {
   image: string;
 }
 
-const PLACEHOLDER_IMAGE = "/gallery/placeholder.svg";
+const PLACEHOLDER_IMAGE = publicAsset("/gallery/placeholder.svg");
 
 export function getTimelineSteps(lang: Language): TimelineStep[] {
   const { timeline } = require("./translations").translations[lang];
@@ -85,25 +86,25 @@ export function getTimelineSteps(lang: Language): TimelineStep[] {
       id: "first-meet",
       title: timeline.firstMeet.title,
       body: timeline.firstMeet.body,
-      image: "/gallery/first-meet.png",
+      image: publicAsset("/gallery/first-meet.png"),
     },
     {
       id: "first-message",
       title: timeline.firstMessage.title,
       body: timeline.firstMessage.body,
-      image: "/gallery/first-message.png",
+      image: publicAsset("/gallery/first-message.png"),
     },
     {
       id: "story-began",
       title: timeline.storyBegan.title,
       body: timeline.storyBegan.body,
-      image: "/gallery/our-story-began.png",
+      image: publicAsset("/gallery/our-story-began.png"),
     },
     {
       id: "engagement",
       title: timeline.engagement.title,
       body: timeline.engagement.body,
-      image: "/gallery/engagement.png",
+      image: publicAsset("/gallery/engagement.png"),
     },
   ];
 }
