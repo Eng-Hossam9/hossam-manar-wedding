@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hossam & Manar — Wedding Website
 
-## Getting Started
+A cinematic, romantic wedding site built with Next.js, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+## Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Assets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Hero video
 
-## Learn More
+Place your hero background video at:
 
-To learn more about Next.js, take a look at the following resources:
+- **`public/video/hero.mp4`**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The hero section uses this file with autoplay (muted), loop, and a dark overlay for text readability. If the file is missing, the hero will show a broken video placeholder until you add it.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Background music
 
-## Deploy on Vercel
+Place your romantic audio file at:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **`public/audio/romantic.mp3`** (or `.ogg`)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Music does **not** autoplay with sound until the user clicks **"Enter Our Story"** (browsers block unmuted autoplay). After that, the floating music button in the bottom-right controls play/pause.
+
+### Gallery and timeline images
+
+Replace the placeholder assets with your own:
+
+- **`public/gallery/placeholder.svg`** — used for all timeline and gallery slots until you add real photos.
+- To use your own images: add files (e.g. `1.jpg` … `6.jpg`) to `public/gallery/` and update the image paths in **`lib/wedding.ts`** (`TIMELINE_STEPS` and `GALLERY_IMAGES`).
+
+### Map embed
+
+To show your venue on the Event Details section:
+
+1. In [Google Maps](https://www.google.com/maps), find your venue and click **Share** → **Embed a map**.
+2. Copy the `src` URL from the iframe.
+3. Create a `.env.local` file (see `.env.example`) and set:
+   ```env
+   NEXT_PUBLIC_MAP_EMBED_URL=https://www.google.com/maps/embed?pb=...
+   ```
+
+## Scripts
+
+- `npm run dev` — development server
+- `npm run build` — production build
+- `npm run start` — run production build
+
+## Tech stack
+
+- Next.js 16 (App Router)
+- React 19
+- Tailwind CSS 4
+- Framer Motion

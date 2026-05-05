@@ -1,0 +1,218 @@
+export type Language = "en" | "ar";
+
+export const translations = {
+  en: {
+    hero: {
+      line1: "We found love",
+      line2: "And now we are getting married",
+    },
+    timeline: {
+      firstMeet: {
+        title: "First Meet",
+        body: "Our paths crossed and something beautiful began. A glance that felt like home.",
+      },
+      firstMessage: {
+        title: "First Message",
+        body: "Words on a screen that made us smile. The start of countless conversations.",
+      },
+      storyBegan: {
+        title: "Our Story Began",
+        body: "Every moment together wrote a new chapter. We knew this was forever.",
+      },
+      engagement: {
+        title: "Engagement",
+        body: "Two hearts, one promise. We said yes to a lifetime of love.",
+      },
+    },
+    invitation: {
+      title: "You're Invited",
+      text: "With joy in our hearts, we invite you to celebrate the beginning of our forever. Your presence will make our wedding day complete. Come share in our love, laughter, and the promise of a new chapter together. We cannot wait to see you there.",
+    },
+    countdown: {
+      title: "Countdown to Our Day",
+      past: "Our wedding day has arrived. Thank you for being part of our story.",
+      days: "Days",
+      hours: "Hours",
+      minutes: "Minutes",
+      seconds: "Seconds",
+    },
+    eventDetails: {
+      title: "Event Details",
+      date: "Date",
+    },
+    rsvp: {
+      title: "RSVP",
+      name: "Name",
+      namePlaceholder: "Your name",
+      attendance: "Attendance",
+      yes: "Yes",
+      no: "No",
+      message: "Message (Optional)",
+      messagePlaceholder: "Leave us a message...",
+      send: "Send",
+      thankYou: "Thank you!",
+      received: "We've received your response and can't wait to celebrate with you.",
+    },
+    messages: {
+      title: "Messages",
+      noMessages: "No Messages Yet",
+      beFirst: "Be the first to leave a message for the couple!",
+      loading: "Loading Messages...",
+      attending: "Attending",
+      notAttending: "Not Attending",
+    },
+    tabs: {
+      home: "Home",
+      story: "Story",
+      countdown: "Countdown",
+      location: "Location",
+      rsvp: "RSVP",
+      messages: "Messages",
+    },
+    gallery: {
+      title: "Gallery",
+    },
+    loveStory: {
+      title: "Our Love Story",
+    },
+    scrollInvite: {
+      tapLine: "✦ Tap to open your invitation ✦",
+      invitedLine1: "YOU ARE INVITED TO THE",
+      invitedLine2: "WEDDING PARTY OF",
+      untilBigDay: "until the big day",
+      countdownShortDays: "DAYS",
+      countdownShortHrs: "HRS",
+      countdownShortMin: "MIN",
+      countdownShortSec: "SEC",
+      welcomeTitle: "Welcome!",
+      momentsTitle: "Our Moments",
+      momentsSubtitle: "Unforgettable Moments",
+      coupleTitle: "The Happy Couple",
+      coupleTagline: "forever & always",
+      verseSource: "— Surah Ar-Rum, Ayah 21",
+      whenWhereTitle: "When & Where",
+      whenWhereSubtitle: "join us to celebrate",
+      ourWeddingParty: "Our wedding party",
+      fridayTimeLabel: "Time",
+      venueLabel: "Venue",
+      locationLabel: "Location",
+      weddingSongTitle: "Wedding Song",
+      weddingSongPlaying: "playing now",
+      verse:
+        "❧ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ ❧",
+      enterButton: "Open invitation",
+      musicHintPlaying: "Music on",
+      musicHintOff: "Music off",
+      envelopeHint: "Tap the envelope to open",
+    },
+  },
+  ar: {
+    hero: {
+      line1: "وجدنا الحب",
+      line2: "والآن نحن نتزوج",
+    },
+    timeline: {
+      firstMeet: {
+        title: "اللقاء الأول",
+        body: "التقت طرقنا وبدأ شيء جميل. نظرة شعرنا أنها كالبيت.",
+      },
+      firstMessage: {
+        title: "الرسالة الأولى",
+        body: "كلمات على الشاشة جعلتنا نبتسم. بداية محادثات لا حصر لها.",
+      },
+      storyBegan: {
+        title: "بدأت قصتنا",
+        body: "كل لحظة معاً كتبت فصلاً جديداً. عرفنا أن هذا للأبد.",
+      },
+      engagement: {
+        title: "الخطوبة",
+        body: "قلبان، وعد واحد. قلنا نعم لحياة من الحب.",
+      },
+    },
+    invitation: {
+      title: "أنت مدعو",
+      text: "بفرح في قلوبنا، ندعوك للاحتفال ببداية أبديتنا. حضورك سيجعل يوم زفافنا مكتملاً. تعال شاركنا حبنا وضحكنا ووعد فصل جديد معاً. لا يمكننا الانتظار لنراك هناك.",
+    },
+    countdown: {
+      title: "العد التنازلي ليومنا",
+      past: "يوم زفافنا قد وصل. شكراً لكونك جزءاً من قصتنا.",
+      days: "أيام",
+      hours: "ساعات",
+      minutes: "دقائق",
+      seconds: "ثواني",
+    },
+    eventDetails: {
+      title: "تفاصيل الحدث",
+      date: "التاريخ",
+    },
+    rsvp: {
+      title: "تأكيد الحضور",
+      name: "الاسم",
+      namePlaceholder: "اسمك",
+      attendance: "الحضور",
+      yes: "نعم",
+      no: "لا",
+      message: "رسالة (اختياري)",
+      messagePlaceholder: "اترك لنا رسالة...",
+      send: "إرسال",
+      thankYou: "شكراً لك!",
+      received: "لقد تلقينا ردك ولا يمكننا الانتظار للاحتفال معك.",
+    },
+    messages: {
+      title: "الرسائل",
+      noMessages: "لا توجد رسائل بعد",
+      beFirst: "كن أول من يترك رسالة للعروسين!",
+      loading: "جاري تحميل الرسائل...",
+      attending: "حاضر",
+      notAttending: "غير حاضر",
+    },
+    tabs: {
+      home: "الرئيسية",
+      story: "القصة",
+      countdown: "العد التنازلي",
+      location: "الموقع",
+      rsvp: "تأكيد الحضور",
+      messages: "الرسائل",
+    },
+    gallery: {
+      title: "المعرض",
+    },
+    loveStory: {
+      title: "قصة حبنا",
+    },
+    scrollInvite: {
+      tapLine: "✦ اضغط لفتح الدعوة ✦",
+      invitedLine1: "نتشرف بدعوتكم لحضور",
+      invitedLine2: "حفل زفافنا",
+      untilBigDay: "حتى يوم الفرح",
+      countdownShortDays: "يوم",
+      countdownShortHrs: "ساعة",
+      countdownShortMin: "دقيقة",
+      countdownShortSec: "ثانية",
+      welcomeTitle: "أهلاً بكم!",
+      momentsTitle: "لحظاتنا",
+      momentsSubtitle: "لحظات لا تُنسى",
+      coupleTitle: "العروسان",
+      coupleTagline: "للأبد",
+      verseSource: "— سورة الروم - الآية ٢١",
+      whenWhereTitle: "المكان والموعد",
+      whenWhereSubtitle: "شاركونا فرحتنا",
+      ourWeddingParty: "حفل الزفاف",
+      fridayTimeLabel: "الوقت",
+      venueLabel: "القاعة",
+      locationLabel: "الموقع",
+      weddingSongTitle: "أغنية الفرح",
+      weddingSongPlaying: "تُشغَّل الآن",
+      verse:
+        "❧ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ ❧",
+      enterButton: "افتح الدعوة",
+      musicHintPlaying: "الموسيقى تعمل",
+      musicHintOff: "الموسيقى متوقفة",
+      envelopeHint: "اضغط على الظرف لفتح الدعوة",
+    },
+  },
+};
+
+export function getTranslation(lang: Language) {
+  return translations[lang];
+}
