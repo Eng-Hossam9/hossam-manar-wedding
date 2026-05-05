@@ -1,4 +1,4 @@
 :HL["/hossam-manar-wedding/_next/static/chunks/0~p9wijyy2kd8.css","style"]
 :HL["/hossam-manar-wedding/_next/static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/hossam-manar-wedding/_next/static/media/4a7551bcc3548e67-s.p.10.2v_am23hfz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"D3KhnYB8l9Vy8ipqUk0Ag"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"NC85_KLN6mQQ_kUDrNDEy"}

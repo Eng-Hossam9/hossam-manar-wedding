@@ -3,7 +3,7 @@
 3:I[67271,["/hossam-manar-wedding/_next/static/chunks/12jpnced5g.l7.js","/hossam-manar-wedding/_next/static/chunks/0d3shmwh5_nmn.js","/hossam-manar-wedding/_next/static/chunks/0-6u2-d24kjb8.js","/hossam-manar-wedding/_next/static/chunks/0ptt0uhx51az-.js"],"default"]
 6:I[97367,["/hossam-manar-wedding/_next/static/chunks/12jpnced5g.l7.js","/hossam-manar-wedding/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/hossam-manar-wedding/_next/static/chunks/0-6u2-d24kjb8.js","async":true}],["$","script","script-1",{"src":"/hossam-manar-wedding/_next/static/chunks/0ptt0uhx51az-.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"D3KhnYB8l9Vy8ipqUk0Ag"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/hossam-manar-wedding/_next/static/chunks/0-6u2-d24kjb8.js","async":true}],["$","script","script-1",{"src":"/hossam-manar-wedding/_next/static/chunks/0ptt0uhx51az-.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"NC85_KLN6mQQ_kUDrNDEy"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
