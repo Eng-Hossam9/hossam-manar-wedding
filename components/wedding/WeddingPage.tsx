@@ -7,6 +7,7 @@ import { LoadingScreen } from "./LoadingScreen";
 import { IntroExperience } from "./IntroExperience";
 import { InvitationScrollPage } from "./InvitationScrollPage";
 import { LanguageToggle } from "./LanguageToggle";
+import { publicAsset } from "@/lib/assetBase";
 
 export function WeddingPage() {
   const [phase, , goToMain] = useWeddingPhase();
@@ -21,7 +22,7 @@ export function WeddingPage() {
     <>
       <audio
         ref={audioRef}
-        src="/audio/romantic.mp3"
+        src={publicAsset("/audio/romantic.mp3")}
         loop
         preload="metadata"
         aria-hidden
